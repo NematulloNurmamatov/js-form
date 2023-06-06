@@ -104,3 +104,17 @@ header {
     font-size: 20px;
     cursor: pointer;
 }
+
+
+@media(max-width: 700px) {
+    .modal-center {
+        padding-right: 0px;
+    }
+}
+
+@media(max-width: 400px) {
+    .buttonlar {
+        flex-direction: column;
+        text-align: center;
+    }
+}
